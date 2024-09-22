@@ -37,6 +37,7 @@ jobs:
       run: |
         # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
             # skopeo copy docker://docker.io/userxy2015/ngnix:latest docker://crpi-ub46yljujy99d08z.cn-chengdu.personal.cr.aliyuncs.com/snow_aliyun/ngnix:latest
-            skopeo copy docker://docker.io/redis:8.0-M01 docker://crpi-ub46yljujy99d08z.cn-chengdu.personal.cr.aliyuncs.com/snow_aliyun/redis:8.0-M01
+            # skopeo copy docker://docker.io/redis:8.0-M01 docker://crpi-ub46yljujy99d08z.cn-chengdu.personal.cr.aliyuncs.com/snow_aliyun/redis:8.0-M01
+            skopeo copy docker://docker.io/ubuntu docker://crpi-ub46yljujy99d08z.cn-chengdu.personal.cr.aliyuncs.com/snow_aliyun/ubuntu
 
 
