@@ -41,6 +41,6 @@ jobs:
             # skopeo copy docker://docker.io/ubuntu docker://crpi-ub46yljujy99d08z.cn-chengdu.personal.cr.aliyuncs.com/snow_aliyun/ubuntu
             # skopeo copy docker://docker.io/mongo:nanoserver docker://crpi-ub46yljujy99d08z.cn-chengdu.personal.cr.aliyuncs.com/snow_aliyun/mongo:nanoserver
             # skopeo copy docker://docker.io/mongo:latest docker://crpi-ub46yljujy99d08z.cn-chengdu.personal.cr.aliyuncs.com/snow_aliyun/mongo:latest
-            skopeo copy docker://docker.io/rabbitmq:management-alpine docker://crpi-ub46yljujy99d08z.cn-chengdu.personal.cr.aliyuncs.com/snow_aliyun/rabbitmq:management-alpine
+            skopeo copy docker://docker.io/rabbitmq docker://crpi-ub46yljujy99d08z.cn-chengdu.personal.cr.aliyuncs.com/snow_aliyun/rabbitmq
 
 
